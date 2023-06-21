@@ -22,6 +22,8 @@ namespace Soxbear.Channels {
 
         public string typeName;        
 
+        public bool enabled = true;
+
         public Channeller channeller;
 
         public int channelNumber = 0;
@@ -100,7 +102,7 @@ namespace Soxbear.Channels {
 
             Foldout fold = new Foldout();
             fold.text = ObjectNames.NicifyVariableName(property.name) + "   -   " + property.FindPropertyRelative("typeName").stringValue;
-
+            fold.contentContainer.Add(new PropertyField(property.FindPropertyRelative("enabled")));
             fold.contentContainer.Add(new PropertyField(property.FindPropertyRelative("channeller")));
             fold.contentContainer.Add(new PropertyField(property.FindPropertyRelative("channelNumber")));
 
