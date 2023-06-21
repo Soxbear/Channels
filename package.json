@@ -1,0 +1,7 @@
+{
+	"name" : "com.soxbear.channels",
+	"version" : "1.0.0",
+	"displayName" : "Channels",
+	"description" : "A package for creating communications channels between objects that can be edited in the inspector",
+	"author" : "Soxbear"
+}
