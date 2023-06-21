@@ -3,8 +3,7 @@
     "rootNamespace": "Soxbear.Channels",
     "references": [
         "UnityEditor.UI",
-        "UnityEngine.UI",
-        ""
+        "UnityEngine.UI"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
